@@ -1,0 +1,33 @@
+/* Main stylesheet for lab07 */
+
+body {
+     background-color: #2D3047;
+    color: #FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #93B7BE;
+}
+
+a {
+    color: #588B8B;
+}
+
+nav {
+    background-color: #FFD5C2;
+}
+
+nav a {
+    color: #C8553D;
+    padding: 10px;
+}
+nav {margin-bottom:30px}
+
+nav a:hover, nav a.active {
+    background-color: #F28F3B;
+    color: #FFFFFF;
+}
+
