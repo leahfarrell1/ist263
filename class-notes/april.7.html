@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quiz</title>
+
+<script>
+function wrongAnswer () {
+    document.getElementById("wrong").innerHTML= "<span style= 'color: red;'> True is the wrong answer!</span>"
+}
+function rightAnswer () {
+    document.getElementById("correct").innerHTML= "<span style= 'color: green;'> False is the correct answer!</span>"
+}
+function change () {
+    document.getElementById("arrow").setAttribute ("src", " ")= 
+}
+function changeBack () {
+    document.getElementById("arrow").setAttribute ("src", " ")= 
+}
+function changeColor () {
+    document.getElementById("thepage").style.backgroundColor=document.getElementById("picker"). value;
+}
+</script>
+</head>
+<body>
+    <h1>My Javascript Quiz</h1>
+    <p>Java and Javascript are the same thing.<p>
+        <p onclick="wrongAnswer();" id="wrong">True</p>
+    <p onclick="rightAnswer();" id="correct">False</p>
+    
+    <h1>Image Rollovers</h1>
+    <img id="arrow" onmouseover="change();" onmouseout="changeBack ();" src="">
+
+    <body id="thepage"> 
+        <form>
+            <input onchange="changeColor();" id="picker" type="color">
+        
+        </form>
+
+    </body>
+    </body>
+    </html>
