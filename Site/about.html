@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.site.css">
 <title>PageTurner - Your Literary Adventure</title>
 </head>
 
@@ -18,8 +19,10 @@
     </header>
     <main>
         <h1>About Leah Farrell</h1>
+        <div class="about-container">
         <img src="../images/headshot.jpeg" alt="Leah Farrell's Headshot" width="300" height="300">
-        <p>About Leah Farrell:
+        <p class="about-text">  
+        About Leah Farrell:
             Leah Farrell is a dedicated Policy Studies and Citizenship & Civic Engagement major with minors in French and Information Management & Technology. Passionate about housing policy and government consulting, Leah has actively engaged in the field through various work experiences, including an internship with the Neighborhood and Business Development Department in the City of Syracuse. During this role, she analyzed the relationship between Syracuse landlords and Section 8 housing and contributed to an economic redevelopment plan for the East Adams neighborhood. She also co-authored a literature review, "Beyond the Viaduct," which examines the impact of the I-81 viaduct on respiratory health in local communities and explores ways Syracuse University can enhance its involvement with the city.
             <br>
             <br>
@@ -28,41 +31,49 @@
             <br>
             Leah's passion for literature and storytelling has led her to create this book review site, where she shares her thoughts on compelling reads across genres. Whether you're looking for your next favorite book or engaging discussions on impactful narratives, Leah's reviews offer thoughtful insights and recommendations for all book lovers.
         </p>
-        <h2>Connect with Leah</h2>
-        <p>For inquiries, feel free to reach out via email or LinkedIn:</p>
-        <ul>
-            <li>Email: <a href="mailto:lafarrel@syr.edu">lafarrel@syr.edu</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/leahafarrell/" target="_blank">https://www.linkedin.com/in/leahafarrell/</a></li>
-        </ul>
-        <section>
-            <h2>Send Your Review</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <br>
-
-                <label for="book">Book:</label>
-                <input type="text" id="book" name="book" required>
-
-                <label for="author">Author:</label>
-                <input type="text" id="author" name="author" required>
-                
-                <br>
-
-                <label for="review">Review:</label>
-                <textarea id="review" name="review" required></textarea>
-
-                <button type="submit">Submit Review</button>
-            </form>
-        </section>
+           
+              
+                <div class="review-form">
+                  <h2>Send Your Review</h2>
+                  <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+              
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+              
+                    <label for="book">Book:</label>
+                    <input type="text" id="book" name="book" required>
+              
+                    <label for="author">Author:</label>
+                    <input type="text" id="author" name="author" required>
+              
+                    <label for="review">Review:</label>
+                    <textarea id="review" name="review" required></textarea>
+              
+                    <button type="submit">Submit Review</button>
+                  </form>
+                </div>
+              </section>
+              
     </main>
 
     <footer>
-        <p>&copy; 2024 PageTurner. All rights reserved.</p>
+            <h2>Connect with Leah</h2>
+           
+            <p> <strong>For inquiries, feel free to reach out via email or LinkedIn:</strong></p>
+        <br>
+            <ul>
+           
+                 <li>Email: <a href="mailto:lafarrel@syr.edu">lafarrel@syr.edu</a></li>
+                 <li>LinkedIn: <a href="https://www.linkedin.com/in/leahafarrell/" target="_blank">https://www.linkedin.com/in/leahafarrell/</a></li>
+                <li>Email: <a href="mailto:lafarrel@syr.edu">lafarrel@syr.edu</a></li>
+                 <li>LinkedIn: <a href="https://www.linkedin.com/in/leahafarrell/" target="_blank">https://www.linkedin.com/in/leahafarrell/</a></li>
+        </ul>
+        <br>
+        <p>&copy; 2025 PageTurner. All rights reserved.
+    </p>
+
     </footer>
 </body>
 </html>
