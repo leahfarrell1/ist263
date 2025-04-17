@@ -83,13 +83,13 @@ nav span {display: none;}
 }
 
 nav a {
-    color: #B4EBE6;
+    color: #00796B;
     padding: 10px 0 ;
 }
 nav {margin-bottom:30px}
 
 nav a:hover, nav a.active {
-    background-color: #B4EBE6;
+    background-color: #00796B;
     color: #FBF8EF;
 }
 
