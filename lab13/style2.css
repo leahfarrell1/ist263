@@ -60,12 +60,16 @@ nav {
   }
 
 h1 {
-     color: #80CBC4;
+     color: #00796B;
 }
 
-   h2, h3, h4, h5 {color:#80CBC4}
+   h2, h3, h4, h5 {color:#00796B}
 a {
-    color: #588B8B;
+    color: #00796B;
+}
+
+.contact-column a {
+    color:white
 }
 
 nav {
