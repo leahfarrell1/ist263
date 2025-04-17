@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Web Development - Skills</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        table, th, td {border: 1px solid black;}
+        h1 {text-align: center;}
+       
+        .skills-container {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0 10px; 
+            text-align: center;
+        }
+
+        .main-container {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .other-skills {
+            background-color: #0c9488; 
+            color: white; 
+            border-radius: 10px;
+            padding: 20px;
+            margin-left: 15px;
+        }
+        
+        .left-column {flex: 3;}
+        .right-column {flex: 1;}
+        body {margin: 0 15px;}
+        nav {margin-bottom: 20px;}
+        p {margin-bottom: 30px;}
+        .skill-text {width: 75%;}
+        
+      
+        .skip {
+            position: absolute;
+            left: -10000px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+        
+        .skip:focus {
+            position: static;
+            width: auto;
+            height: auto;
+            padding: 0.5rem;
+            background-color: #FBF8EF;
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip">Skip to main content</a>
+<nav>
+        <a href="index.html">Home</a> <span>|</span> 
+        <a href="forms-lab.html">Skills</a> <span>|</span> 
+        <a href="contact-copy.html">Contact</a>
+    </nav>
+    
+    <main id="main-content">
+        <header>
+            <h1>Technical Skills</h1>
+        </header>
+        
+        <p class="skill-text">My academic career has been focused on developing hard skills to support a future career in public policy. Below are some of the skills I have gained thus far.</p>
+        
+        <div class="main-container">
+            <div class="left-column">
+                <section aria-labelledby="primary-skills">
+                    <h2 id="primary-skills">Primary Skills</h2>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <i class="fa-solid fa-map" style="width: 50px; font-size: 3rem;" aria-hidden="true"></i>
+                            <p>ArcGIS Pro</p>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <i class="fa-solid fa-book" style="width: 50px; font-size: 3rem;" aria-hidden="true"></i>
+                            <p>ArcGIS Storymaps</p>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <i class="fa-brands fa-windows" style="width: 50px; font-size: 3rem;" aria-hidden="true"></i>
+                            <p>Windows</p>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <i class="fa-solid fa-file-excel" style="width: 50px; font-size: 3rem;" aria-hidden="true"></i>
+                            <p>Microsoft Excel</p>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <i class="fa-solid fa-chart-simple" style="width: 50px; font-size: 3rem;" aria-hidden="true"></i>
+                            <p>Charts</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="right-column">
+                <aside class="other-skills">
+                    <h2>Other Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>Tableau</li>
+                        <li>Microsoft Projects</li>
+                        <li>Asana</li>
+                        <li>PowerPoint</li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

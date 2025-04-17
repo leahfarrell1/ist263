@@ -1,0 +1,92 @@
+/* Main stylesheet for lab07 */
+
+body {
+     background-color: #FBF8EF
+    color: #B4EBE6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px; 
+}
+
+body {
+    font-size: 1rem; 
+}
+
+h1 {
+    font-size: 1.5rem; 
+}
+
+p {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem
+}
+
+h3 {
+    font-size: 1.25rem
+}
+
+nav {
+    font-size: 1.1rem
+}
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    background-color: #FBF8EF;
+}
+
+.other-skills h2 {
+    color: white !important;
+  }
+
+  .contact-section h3 {
+    color:white !important;
+  }
+
+h1 {
+     color: #80CBC4;
+}
+
+   h2, h3, h4, h5 {color:#80CBC4}
+a {
+    color: #588B8B;
+}
+
+nav {
+    background-color: #FFB433;
+    padding: 10px
+}
+@media only screen and (max-width:800px){
+nav a {width: 100%;
+display: block;}
+nav span {display: none;}
+}
+
+nav a {
+    color: #B4EBE6;
+    padding: 10px 0 ;
+}
+nav {margin-bottom:30px}
+
+nav a:hover, nav a.active {
+    background-color: #B4EBE6;
+    color: #FBF8EF;
+}
+
+
