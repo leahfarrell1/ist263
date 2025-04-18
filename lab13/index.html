@@ -8,7 +8,24 @@
     <style>
         body {background-color:#F5F5F5}
         .banner{max-width: 100%;}
-    </style>
+       
+        .skip {
+            position: absolute;
+            left: -10000px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+        
+        .skip:focus {
+            position: static;
+            width: auto;
+            height: auto;
+            padding: 0.5rem;
+            background-color: #FBF8EF;
+        }
+   </style>
 </head>
 <body>
     <!-- Skip to content link -->
