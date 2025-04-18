@@ -61,4 +61,10 @@ nav a {
     padding: 10px 0;
     text-decoration: none;
 }
+nav a:hover {
+    background-color: #FFF59D; 
+    color: #1B5E20; 
+    padding: 10px;
+    border-radius: 5px; 
+}
 
