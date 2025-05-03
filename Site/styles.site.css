@@ -411,6 +411,49 @@ article ul li::before {
     font-size: 1rem;
   }
   
+  .heading-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    padding: 0 1rem;
+  }
+  
+  .heading-search h1 {
+    font-size: 1.75rem;
+    margin: 0;
+    flex: 1;
+    font-family: 'Goudy Bookletter 1911', serif;
+  }
+  
+  .heading-search input {
+    flex: 0 0 300px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Gentium Book Plus', serif;
+  }
+  
+  .star-rating {
+    font-size: 1.5rem;
+    color: #ccc;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+  
+  .star {
+    padding: 0 4px;
+  }
+  
+  .star.selected {
+    color: #f5b301; /* gold */
+  }
+  
+
   .review-form {
     flex: 1;
     min-width: 320px;

@@ -24,18 +24,29 @@
     
     <main>
         <section>
-            <h1>Explore Our Book Review Collection</h1>
-            <p>Below you will find a library of book reviews categorized by genre</p>
-            <h2>Featured Genres</h2>
-
+            <section class="heading-search">
+                <h1>Explore Our Book Review Collection</h1>
+                <input type="text" id="searchInput" placeholder="Search books or genres..." onkeyup="filterBooks()">
+              </section>
             <section>
                 <h3>Non-Fiction</h3>
                <div class="genre-flex">
+                <section id="evicted">
+                <section id="dear-america">   
                 <article>
                     <img src="../images/Evicted.jpg" alt="Book cover of Evicted by Matthew Desmond" width="200" height="300">
                     <h4>Evicted by Matthew Desmond</h4>
                     <p>Genre:Nonfiction/Sociology ★★★½ (3.5/5 Stars)</p>
                     <p>Evicted follows eight families in Milwaukee struggling with housing insecurity, documenting their experiences with eviction, poverty, and the challenges of finding stable housing. Through extensive fieldwork, Desmond reveals how eviction perpetuates poverty cycles in America.</p>
+                    <div class="star-rating" data-book="Evicted">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                      </div>
+                      <p class="rating-output"></p>
+                      
                     <h5>Strengths</h5>
                     <ul>
                         <li>Thorough Research</li>
@@ -54,13 +65,25 @@
                         <li>Economic Struggles</li>
                         <li>The impact of poverty on individuals</li>
                     </ul>
+               
                 </article>
+            </section>
+        </section>
 
                 <article>
                     <img src="../images/Dear.America.jpg" alt="Book cover of Dear America, Notes of an Undocumented Citizen" width="200" height="300">
                     <h4>Dear America, Notes of an Undocumented Citizen</h4>
                     <p>By Jose Antonio Vargas Genre: Memoir ★★★★½ (4.5/5 Stars)</p>
                     <p>In this powerful memoir, Pulitzer Prize-winning journalist Jose Antonio Vargas reveals his life as an undocumented immigrant in America. Sent from the Philippines to live with his grandparents at age twelve, Vargas discovers his undocumented status at sixteen and spends the next decades navigating American society while harboring this secret.</p>
+                    <div class="star-rating" data-book="Dear American">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                      </div>
+                      <p class="rating-output"></p>
+                      
                     <h5>Exceptional Elements</h5>
                     <ul>
                         <li>Raw, honest portrayal of living as an undocumented immigrant</li>
@@ -82,11 +105,22 @@
             <section>
                 <h3>Romance</h3>
                 <div class="genre-flex">
+                    <section id="the-wish"> 
+                    <section id="part-of-your-world">   
                 <article>
                     <img src="../images/2021-the-wish.jpeg" alt="Book cover of The Wish by Nicholas Sparks" width="200" height="300">
                     <h4>The Wish by Nicholas Sparks</h4>
                     <p>Genre: Contemporary Romance ★★★★★ (5/5 Stars)</p>
                     <p>In The Wish, Sparks masterfully weaves together two timelines: 2019 New York City, where successful photographer Maggie Dawes faces a terminal diagnosis, and 1996 Ocracoke Island, where teenage Maggie experiences first love with Bryce Trickett during a life-changing year living with her aunt.</p>
+                    <div class="star-rating" data-book="The Wish">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                      </div>
+                      <p class="rating-output"></p>
+                      
                     <h5>Why Five Stars?</h5>
                     <ul>
                         <li>Flawless narrative structure</li>
@@ -102,12 +136,23 @@
                         <li>Family relationships</li>
                     </ul>
                 </article>
+                </section>
+                </section>
 
                 <article>
                     <img src="../images/partofyourworld.avif" alt="Book cover of Part of Your World by Abby Jiminez" width="200" height="300">
                     <h4>Part of Your World by Abby Jimenez</h4>
                     <p>Genre: Contemporary Romance ★★★★½ (4.5/5 Stars)</p>
                     <p>A wealthy ER doctor from a prestigious medical dynasty meets a small-town carpenter after he rescues her from a ditch. Despite their different worlds, they form an undeniable connection that challenges both their life paths.</p>
+                    <div class="star-rating" data-book="Part of Your World">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                      </div>
+                      <p class="rating-output"></p>
+                      
                     <h5>Standout Elements</h5>
                     <ul>
                         <li>Sharp, witty dialogue</li>
@@ -137,6 +182,8 @@
                 <div class="genre-flex">
                 <article>
                     <section id="the-nightingale">
+                    <section id="the-great-alone">
+                    <section id="the-four-winds">
                     <img src="../images/TheGreatAlone_PBCover_0919.jpg" alt="Book cover of The Great Alone by Kristin Hannah" width="200" height="300">
                     <h4>The Great Alone by Kristin Hannah</h4>
                     <p>Genre: Historical Fiction ★★★★★ (5/5 Stars)</p>
@@ -144,6 +191,15 @@
                         <br>
                         Hannah masterfully captures the raw, unforgiving landscape of Alaska as a metaphorical backdrop to the family's internal struggles. Ernt, a traumatized Vietnam veteran, becomes increasingly volatile and abusive, creating a pressure cooker of tension that mirrors the extreme, isolated environment.
                     </p>
+                    <div class="star-rating" data-book="The Great Alone">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                      </div>
+                      <p class="rating-output"></p>
+                      
                     <h5>Themes</h5>
                     <ul>
                         <li>Domestic violence</li>
@@ -158,6 +214,8 @@
                         <li>Stories about family dynamics/trauma</li>
                     </ul>
                 </section>
+                </section>
+                </section>
                 </article>
 
                 <article>
@@ -168,6 +226,15 @@
                         <br>
                         Hannah crafts a masterful dual narrative that explores how ordinary women become extraordinary in times of war. The parallel stories of the sisters showcase different forms of resistance and courage—Vianne's quiet, desperate fight for survival and Isabelle's bold acts of defiance.
                     </p>
+                    <div class="star-rating" data-book="The Nightingale">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                      </div>
+                      <p class="rating-output"></p>
+                      
                     <h5>Themes</h5>
                     <ul>
                         <li>Life during war</li>
@@ -187,6 +254,15 @@
                     <h4>The Four Winds by Kristin Hannah</h4>
                     <p>Genre: Historical Fiction ★★★★☆ (4/5 Stars)</p>
                     <p>Set during the Great Depression and Dust Bowl era, The Four Winds follows Elsa Martinelli, a Texas farmer's wife who must fight for her family's survival when drought and dust storms threaten everything they own. After circumstances force her to leave Texas, she embarks on a treacherous journey to California with her two children, hoping to find a better life.</p>
+                    <div class="star-rating" data-book="The Four Winds">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                      </div>
+                      <p class="rating-output"></p>
+                      
                     <h5>Strengths</h5>
                     <ul>
                         <li>Meticulous historical detail about the Dust Bowl Era</li>
@@ -213,5 +289,8 @@
     <footer>
         <p>&copy; 2025 PageTurner. All rights reserved.</p>
     </footer>
-</body>
-</html>
+
+    <script src="script.js"></script>
+      </body>
+      </html>
+    
