@@ -1,295 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.site.css">
-<title>PageTurner - Your Literary Adventure</title>
-<link rel="shortcut icon" type="image/x-icon" href="favicon(4).ico">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.site.css">
+  <title>PageTurner - Your Literary Adventure</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon(4).ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"> Home </a></li>
-                <li><a href="reviews.html"> Book Review Catalog </a></li>
-                <li><a href="about.html"> About/Contact </a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section>
-            <section class="heading-search">
-                <input type="text" id="searchInput" placeholder="Search books or genres..." onkeyup="filterBooks()">
-              </section>
-            <section>
-                <h3>Non-Fiction</h3>
-               <div class="genre-flex">
-                <section id="evicted">
-                <section id="dear-america">   
-                <article>
-                    <img src="../images/Evicted.jpg" alt="Book cover of Evicted by Matthew Desmond" width="200" height="300">
-                    <h4>Evicted by Matthew Desmond</h4>
-                    <p>Genre:Nonfiction/Sociology ★★★½ (3.5/5 Stars)</p>
-                    <p>Evicted follows eight families in Milwaukee struggling with housing insecurity, documenting their experiences with eviction, poverty, and the challenges of finding stable housing. Through extensive fieldwork, Desmond reveals how eviction perpetuates poverty cycles in America.</p>
-                    <div class="star-rating" data-book="Evicted">
-                        <span class="star" data-value="1">&#9733;</span>
-                        <span class="star" data-value="2">&#9733;</span>
-                        <span class="star" data-value="3">&#9733;</span>
-                        <span class="star" data-value="4">&#9733;</span>
-                        <span class="star" data-value="5">&#9733;</span>
-                      </div>
-                      <p class="rating-output"></p>
-                      
-                    <h5>Strengths</h5>
-                    <ul>
-                        <li>Thorough Research</li>
-                        <li>Compelling Personal Narratives</li>
-                        <li>Strong policy analysis</li>
-                    </ul>
-                    <h5>Limitations</h5>
-                    <ul>
-                        <li>Repetitive at times</li>
-                        <li>Occasional loss of narrative focus</li>
-                        <li>Milwaukee specific focus limits broader application</li>
-                    </ul>
-                    <h5>Themes</h5>
-                    <ul>
-                        <li>Housing Insecurity</li>
-                        <li>Economic Struggles</li>
-                        <li>The impact of poverty on individuals</li>
-                    </ul>
-               
-                </article>
-            </section>
-        </section>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="reviews.html"> Book Review Catalog </a></li>
+        <li><a href="about.html"> About/Contact </a></li>
+      </ul>
+    </nav>
+  </header>
 
-                <article>
-                    <img src="../images/Dear.America.jpg" alt="Book cover of Dear America, Notes of an Undocumented Citizen" width="200" height="300">
-                    <h4>Dear America, Notes of an Undocumented Citizen</h4>
-                    <p>By Jose Antonio Vargas Genre: Memoir ★★★★½ (4.5/5 Stars)</p>
-                    <p>In this powerful memoir, Pulitzer Prize-winning journalist Jose Antonio Vargas reveals his life as an undocumented immigrant in America. Sent from the Philippines to live with his grandparents at age twelve, Vargas discovers his undocumented status at sixteen and spends the next decades navigating American society while harboring this secret.</p>
-                    <div class="star-rating" data-book="Dear America">
-                        <span class="star" data-value="1">&#9733;</span>
-                        <span class="star" data-value="2">&#9733;</span>
-                        <span class="star" data-value="3">&#9733;</span>
-                        <span class="star" data-value="4">&#9733;</span>
-                        <span class="star" data-value="5">&#9733;</span>
-                      </div>
-                      <p class="rating-output"></p>
-                      
-                    <h5>Exceptional Elements</h5>
-                    <ul>
-                        <li>Raw, honest portrayal of living as an undocumented immigrant</li>
-                        <li>Clear, compelling journalistic style</li>
-                        <li>Nuanced exploration of identity and belonging</li>
-                    </ul>
-                    <h5>Themes</h5>
-                    <ul>
-                        <li>Identity</li>
-                        <li>Family</li>
-                        <li>Belonging as an undocumented immigrant</li>
-                        <li>Social integration</li>
-                    </ul>
-                </article>
-            </div>
-                <hr>
-            </section>
+  <main>
+    <div>
+      <div class="heading-search">
+        <h1>Explore Our Book Review Collection</h1>
+        <input type="text" id="searchInput" placeholder="Search books or genres..." onkeyup="filterBooks()">
+      </div>
 
-            <section>
-                <h3>Romance</h3>
-                <div class="genre-flex">
-                    <section id="the-wish"> 
-                    <section id="part-of-your-world">   
-                <article>
-                    <img src="../images/2021-the-wish.jpeg" alt="Book cover of The Wish by Nicholas Sparks" width="200" height="300">
-                    <h4>The Wish by Nicholas Sparks</h4>
-                    <p>Genre: Contemporary Romance ★★★★★ (5/5 Stars)</p>
-                    <p>In The Wish, Sparks masterfully weaves together two timelines: 2019 New York City, where successful photographer Maggie Dawes faces a terminal diagnosis, and 1996 Ocracoke Island, where teenage Maggie experiences first love with Bryce Trickett during a life-changing year living with her aunt.</p>
-                    <div class="star-rating" data-book="The Wish">
-                        <span class="star" data-value="1">&#9733;</span>
-                        <span class="star" data-value="2">&#9733;</span>
-                        <span class="star" data-value="3">&#9733;</span>
-                        <span class="star" data-value="4">&#9733;</span>
-                        <span class="star" data-value="5">&#9733;</span>
-                      </div>
-                      <p class="rating-output"></p>
-                      
-                    <h5>Why Five Stars?</h5>
-                    <ul>
-                        <li>Flawless narrative structure</li>
-                        <li>Deep character authenticity</li>
-                        <li>Meaningful exploration of photography as metaphor</li>
-                        <li>Balance of romance and life reflection</li>
-                    </ul>
-                    <h5>Emotional Impact</h5>
-                    <p>The novel delivers an extraordinary emotional punch without feeling manipulative. Sparks handles terminal illness and first love with equal sensitivity, creating genuine moments that resonate long after the final page.</p>
-                    <h5>Themes</h5>
-                    <ul>
-                        <li>Young love</li>
-                        <li>Family relationships</li>
-                    </ul>
-                </article>
-                </section>
-                </section>
+      <section>
+        <h3>Non-Fiction</h3>
+        <div class="genre-flex">
+          <div id="evicted">
+            <article>
+              <img src="../images/Evicted.jpg" alt="Book cover of Evicted by Matthew Desmond" width="200" height="300">
+              <h4>Evicted by Matthew Desmond</h4>
+              <p>Genre: Nonfiction/Sociology ★★★½ (3.5/5 Stars)</p>
+              <p>Evicted follows eight families in Milwaukee struggling with housing insecurity. Desmond shows how eviction perpetuates poverty in America.</p>
+              <h5>Strengths</h5>
+              <ul>
+                <li>Thorough Research</li>
+                <li>Compelling Personal Narratives</li>
+                <li>Strong policy analysis</li>
+              </ul>
+              <h5>Limitations</h5>
+              <ul>
+                <li>Repetitive at times</li>
+                <li>Occasional loss of narrative focus</li>
+                <li>Milwaukee-specific focus limits broader application</li>
+              </ul>
+              <h5>Themes</h5>
+              <ul>
+                <li>Housing Insecurity</li>
+                <li>Economic Struggles</li>
+                <li>The impact of poverty on individuals</li>
+              </ul>
+              <div class="star-rating" data-book="Evicted">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+              </div>
+              <p class="rating-output"></p>
+            </article>
+          </div>
 
-                <article>
-                    <img src="../images/partofyourworld.avif" alt="Book cover of Part of Your World by Abby Jiminez" width="200" height="300">
-                    <h4>Part of Your World by Abby Jimenez</h4>
-                    <p>Genre: Contemporary Romance ★★★★½ (4.5/5 Stars)</p>
-                    <p>A wealthy ER doctor from a prestigious medical dynasty meets a small-town carpenter after he rescues her from a ditch. Despite their different worlds, they form an undeniable connection that challenges both their life paths.</p>
-                    <div class="star-rating" data-book="Part of Your World">
-                        <span class="star" data-value="1">&#9733;</span>
-                        <span class="star" data-value="2">&#9733;</span>
-                        <span class="star" data-value="3">&#9733;</span>
-                        <span class="star" data-value="4">&#9733;</span>
-                        <span class="star" data-value="5">&#9733;</span>
-                      </div>
-                      <p class="rating-output"></p>
-                      
-                    <h5>Standout Elements</h5>
-                    <ul>
-                        <li>Sharp, witty dialogue</li>
-                        <li>Complex family dynamics</li>
-                        <li>Authentic exploration of class differences</li>
-                        <li>Well-developed supporting characters</li>
-                        <li>Perfect balance of humor and serious themes</li>
-                    </ul>
-                    <h5>Minor Drawbacks</h5>
-                    <ul>
-                        <li>Some plot resolutions feel slightly rushed</li>
-                        <li>Secondary antagonist's arc could be more developed</li>
-                    </ul>
-                    <h5>Themes</h5>
-                    <ul>
-                        <li>Family obligation</li>
-                        <li>Unlikely Romance</li>
-                        <li>Domestic violence</li>
-                    </ul>
-                </article>
-            </div>
-                <hr>
-            </section>
+          <div id="dear-america">
+            <article>
+              <img src="../images/Dear.America.jpg" alt="Book cover of Dear America by Jose Antonio Vargas" width="200" height="300">
+              <h4>Dear America by Jose Antonio Vargas</h4>
+              <p>Genre: Memoir ★★★★½ (4.5/5 Stars)</p>
+              <p>Vargas details his life as an undocumented immigrant in America with raw honesty and journalistic clarity, exposing the emotional toll of his hidden identity.</p>
+              <h5>Exceptional Elements</h5>
+              <ul>
+                <li>Raw, honest portrayal of living as an undocumented immigrant</li>
+                <li>Clear, compelling journalistic style</li>
+                <li>Nuanced exploration of identity and belonging</li>
+              </ul>
+              <h5>Themes</h5>
+              <ul>
+                <li>Identity</li>
+                <li>Family</li>
+                <li>Belonging as an undocumented immigrant</li>
+                <li>Social integration</li>
+              </ul>
+              <div class="star-rating" data-book="Dear America">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+              </div>
+              <p class="rating-output"></p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-            <section>
-                <h3>Historical Fiction</h3>
-                <div class="genre-flex">
-                <article>
-                    <section id="the-nightingale">
-                    <section id="the-great-alone">
-                    <section id="the-four-winds">
-                    <img src="../images/TheGreatAlone_PBCover_0919.jpg" alt="Book cover of The Great Alone by Kristin Hannah" width="200" height="300">
-                    <h4>The Great Alone by Kristin Hannah</h4>
-                    <p>Genre: Historical Fiction ★★★★★ (5/5 Stars)</p>
-                    <p>Set in 1974 Alaska, The Great Alone follows the Allbright family—Ernt, Cora, and their thirteen-year-old daughter Leni—as they move to a remote wilderness, hoping to escape Ernt's Vietnam War-induced PTSD and find a new life. What begins as an adventurous escape quickly transforms into a harrowing story of survival, both against the brutal Alaskan wilderness and the more dangerous threat within their own home.
-                        <br>
-                        Hannah masterfully captures the raw, unforgiving landscape of Alaska as a metaphorical backdrop to the family's internal struggles. Ernt, a traumatized Vietnam veteran, becomes increasingly volatile and abusive, creating a pressure cooker of tension that mirrors the extreme, isolated environment.
-                    </p>
-                    <div class="star-rating" data-book="The Great Alone">
-                        <span class="star" data-value="1">&#9733;</span>
-                        <span class="star" data-value="2">&#9733;</span>
-                        <span class="star" data-value="3">&#9733;</span>
-                        <span class="star" data-value="4">&#9733;</span>
-                        <span class="star" data-value="5">&#9733;</span>
-                      </div>
-                      <p class="rating-output"></p>
-                      
-                    <h5>Themes</h5>
-                    <ul>
-                        <li>Domestic violence</li>
-                        <li>Female resilience</li>
-                        <li>PTSD</li>
-                        <li>Community and survival</li>
-                    </ul>
-                    <h5>Recommended For Readers who enjoy:</h5>
-                    <ul>
-                        <li>Strong female protagonists</li>
-                        <li>Survival narratives</li>
-                        <li>Stories about family dynamics/trauma</li>
-                    </ul>
-                </section>
-                </section>
-                </section>
-                </article>
+      <section>
+        <h3>Romance</h3>
+        <div class="genre-flex">
+          <div id="the-wish">
+            <article>
+              <img src="../images/2021-the-wish.jpeg" alt="Book cover of The Wish by Nicholas Sparks" width="200" height="300">
+              <h4>The Wish by Nicholas Sparks</h4>
+              <p>Genre: Contemporary Romance ★★★★★ (5/5 Stars)</p>
+              <p>A terminally ill photographer reflects on her first love on Ocracoke Island. Sparks blends past and present beautifully.</p>
+              <h5>Why Five Stars?</h5>
+              <ul>
+                <li>Flawless narrative structure</li>
+                <li>Deep character authenticity</li>
+                <li>Meaningful exploration of photography as metaphor</li>
+                <li>Balance of romance and life reflection</li>
+              </ul>
+              <h5>Emotional Impact</h5>
+              <p>The novel delivers an extraordinary emotional punch without feeling manipulative. Sparks handles terminal illness and first love with equal sensitivity, creating genuine moments that resonate long after the final page.</p>
+              <h5>Themes</h5>
+              <ul>
+                <li>Young love</li>
+                <li>Family relationships</li>
+              </ul>
+              <div class="star-rating" data-book="The Wish">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+              </div>
+              <p class="rating-output"></p>
+            </article>
+          </div>
 
-                <article>
-                    <img src="../images/Nightingale.jpg" alt="Book cover of The Nightingale by Kristin Hannah" width="200" height="300">
-                    <h4>The Nightingale by Kristin Hannah</h4>
-                    <p>Genre: Historical Fiction ★★★★★ (5/5 Stars)</p>
-                    <p>Set in Nazi-occupied France during WWII, The Nightingale tells the story of two sisters—Vianne Mauriac and Isabelle Rossignol—who resist the German occupation in their own distinct ways. While Vianne struggles to protect her daughter and help Jewish children escape, Isabelle joins the French Resistance, becoming the celebrated "Nightingale" who guides downed Allied airmen across the Pyrenees to safety.
-                        <br>
-                        Hannah crafts a masterful dual narrative that explores how ordinary women become extraordinary in times of war. The parallel stories of the sisters showcase different forms of resistance and courage—Vianne's quiet, desperate fight for survival and Isabelle's bold acts of defiance.
-                    </p>
-                    <div class="star-rating" data-book="The Nigtingale">
-                        <span class="star" data-value="1">&#9733;</span>
-                        <span class="star" data-value="2">&#9733;</span>
-                        <span class="star" data-value="3">&#9733;</span>
-                        <span class="star" data-value="4">&#9733;</span>
-                        <span class="star" data-value="5">&#9733;</span>
-                      </div>
-                      <p class="rating-output"></p>
-                      
-                    <h5>Themes</h5>
-                    <ul>
-                        <li>Life during war</li>
-                        <li>Female resistance</li>
-                        <li>Survival during wartimes</li>
-                    </ul>
-                    <h5>Recommended for readers interested in:</h5>
-                    <ul>
-                        <li>WWII historical Fiction</li>
-                        <li>Female resistance during WWII</li>
-                        <li>French history</li>
-                    </ul>
-                </article>
+          <div id="part-of-your-world">
+            <article>
+              <img src="../images/partofyourworld.avif" alt="Book cover of Part of Your World by Abby Jimenez" width="200" height="300">
+              <h4>Part of Your World by Abby Jimenez</h4>
+              <p>Genre: Contemporary Romance ★★★★½ (4.5/5 Stars)</p>
+              <p>Two people from different worlds—a big-city doctor and a small-town carpenter—form a deeply emotional connection.</p>
+              <h5>Standout Elements</h5>
+              <ul>
+                <li>Sharp, witty dialogue</li>
+                <li>Complex family dynamics</li>
+                <li>Authentic exploration of class differences</li>
+                <li>Well-developed supporting characters</li>
+                <li>Perfect balance of humor and serious themes</li>
+              </ul>
+              <h5>Minor Drawbacks</h5>
+              <ul>
+                <li>Some plot resolutions feel slightly rushed</li>
+                <li>Secondary antagonist's arc could be more developed</li>
+              </ul>
+              <h5>Themes</h5>
+              <ul>
+                <li>Family obligation</li>
+                <li>Unlikely Romance</li>
+                <li>Domestic violence</li>
+              </ul>
+              <div class="star-rating" data-book="Part of Your World">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+              </div>
+              <p class="rating-output"></p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-                <article>
-                    <img src="../images/TheFourWinds-Cover-PB-2303.jpg" alt="Book cover of The Four Winds by Kristin Hannah" width="200" height="300">
-                    <h4>The Four Winds by Kristin Hannah</h4>
-                    <p>Genre: Historical Fiction ★★★★☆ (4/5 Stars)</p>
-                    <p>Set during the Great Depression and Dust Bowl era, The Four Winds follows Elsa Martinelli, a Texas farmer's wife who must fight for her family's survival when drought and dust storms threaten everything they own. After circumstances force her to leave Texas, she embarks on a treacherous journey to California with her two children, hoping to find a better life.</p>
-                    <div class="star-rating" data-book="The Four Winds">
-                        <span class="star" data-value="1">&#9733;</span>
-                        <span class="star" data-value="2">&#9733;</span>
-                        <span class="star" data-value="3">&#9733;</span>
-                        <span class="star" data-value="4">&#9733;</span>
-                        <span class="star" data-value="5">&#9733;</span>
-                      </div>
-                      <p class="rating-output"></p>
-                      
-                    <h5>Strengths</h5>
-                    <ul>
-                        <li>Meticulous historical detail about the Dust Bowl Era</li>
-                        <li>Vivid descriptions of Depression-era hardships</li>
-                        <li>Strong character development</li>
-                    </ul>
-                    <h5>Areas for Improvement</h5>
-                    <ul>
-                        <li>Pacing slows in the middle sections</li>
-                        <li>Abrupt ending</li>
-                    </ul>
-                    <h5>Themes</h5>
-                    <ul>
-                        <li>Maternal sacrifice</li>
-                        <li>Economic inequity</li>
-                        <li>Environmental disasters</li>
-                    </ul>
-                </article>
-            </div>
-            </section>
-        </section>
-    </main>
+      <section>
+        <h3>Historical Fiction</h3>
+        <div class="genre-flex">
+          <div id="the-great-alone">
+            <article>
+              <img src="../images/TheGreatAlone_PBCover_0919.jpg" alt="Book cover of The Great Alone by Kristin Hannah" width="200" height="300">
+              <h4>The Great Alone by Kristin Hannah</h4>
+              <p>Genre: Historical Fiction ★★★★★ (5/5 Stars)</p>
+              <p>Set in 1974 Alaska, a family seeks refuge from PTSD but finds themselves battling both the harsh wilderness and abuse at home.</p>
+              <h5>Themes</h5>
+              <ul>
+                <li>Domestic violence</li>
+                <li>Female resilience</li>
+                <li>PTSD</li>
+                <li>Community and survival</li>
+              </ul>
+              <h5>Recommended For Readers who enjoy:</h5>
+              <ul>
+                <li>Strong female protagonists</li>
+                <li>Survival narratives</li>
+                <li>Stories about family dynamics/trauma</li>
+              </ul>
+              <div class="star-rating" data-book="The Great Alone">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+              </div>
+              <p class="rating-output"></p>
+            </article>
+          </div>
 
-    <footer>
-        <p>&copy; 2025 PageTurner. All rights reserved.</p>
-    </footer>
+          <div id="the-nightingale">
+            <article>
+              <img src="../images/Nightingale.jpg" alt="Book cover of The Nightingale by Kristin Hannah" width="200" height="300">
+              <h4>The Nightingale by Kristin Hannah</h4>
+              <p>Genre: Historical Fiction ★★★★★ (5/5 Stars)</p>
+              <p>During Nazi-occupied France, two sisters find different ways to resist—one with quiet strength, the other with daring rebellion.</p>
+              <h5>Themes</h5>
+              <ul>
+                <li>Life during war</li>
+                <li>Female resistance</li>
+                <li>Survival during wartimes</li>
+              </ul>
+              <h5>Recommended for readers interested in:</h5>
+              <ul>
+                <li>WWII historical Fiction</li>
+                <li>Female resistance during WWII</li>
+                <li>French history</li>
+              </ul>
+              <div class="star-rating" data-book="The Nightingale">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+              </div>
+              <p class="rating-output"></p>
+            </article>
+          </div>
 
-    <script src="script.js"></script>
-      </body>
-      </html>
-    
+          <div id="the-four-winds">
+            <article>
+              <img src="../images/TheFourWinds-Cover-PB-2303.jpg" alt="Book cover of The Four Winds by Kristin Hannah" width="200" height="300">
+              <h4>The Four Winds by Kristin Hannah</h4>
+              <p>Genre: Historical Fiction ★★★★☆ (4/5 Stars)</p>
+              <p>Elsa must flee drought-ridden Texas for California, fighting for her children's survival during the Great Depression.</p>
+              <h5>Strengths</h5>
+              <ul>
+                <li>Meticulous historical detail about the Dust Bowl Era</li>
+                <li>Vivid descriptions of Depression-era hardships</li>
+                <li>Strong character development</li>
+              </ul>
+              <h5>Areas for Improvement</h5>
+              <ul>
+                <li>Pacing slows in the middle sections</li>
+                <li>Abrupt ending</li>
+              </ul>
+              <h5>Themes</h5>
+              <ul>
+                <li>Maternal sacrifice</li>
+                <li>Economic inequity</li>
+                <li>Environmental disasters</li>
+              </ul>
+              <div class="star-rating" data-book="The Four Winds">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+              </div>
+              <p class="rating-output"></p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PageTurner. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
