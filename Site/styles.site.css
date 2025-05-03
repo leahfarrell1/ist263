@@ -188,6 +188,11 @@ h1 {
     background:	#5E807F;
     margin-top: 40px;
   }
+
+footer p {
+  color: #f0e6d6;
+}
+
   .book-row {
     display: flex;
     gap: 20px;
