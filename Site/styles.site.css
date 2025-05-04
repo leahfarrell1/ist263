@@ -2,12 +2,17 @@
  
   
 body {
-    color: #4B3F2F;
+  color: #4B3F2F;
     background-color: #faf3e0;
     font-family: "Gentium Book Plus", serif;
     font-weight: 400;
     font-style: normal;
 }
+
+header h1 {
+  color: #EAF0EF;
+}
+
 
 h1 {
   font-family: "Gentium Book Plus", serif !important;
@@ -67,7 +72,7 @@ h1 {
   
   /* Header */
   header {
-    background-color: #81A2A1 ;
+    background-color: #516C6B ;
     padding: 20px;
     text-align: center;
   }
@@ -81,7 +86,7 @@ h1 {
   
   header nav ul li a {
     text-decoration: none;
-    color: #392E23 ;
+    color: #EAF0EF;
     font-weight: bold;
   }
   
@@ -133,7 +138,7 @@ h1 {
   .featured-reviews div {
     text-align: center;
     width: 30%;
-    background-color: #efe2d2;
+    background-color: #f0e6d6;
   }
   .featured-reviews {
     padding: 60px 40px; 
@@ -143,6 +148,11 @@ h1 {
     color: #2a1f14;
     margin-bottom: 30px;
   }
+
+.featured-reviews h1 {
+    color: #EAF0EF !important;
+}
+
   @media (max-width: 768px) {
     .featured-reviews h2 {
       font-size: 1.5rem;
@@ -186,12 +196,12 @@ h1 {
   footer {
     text-align: center;
     padding: 20px;
-    background:	#5E807F;
+    background:	#516C6B;
     margin-top: 40px;
   }
 
 footer p {
-  color: #f0e6d6;
+  color: #EAF0EF;
 }
 
   .book-row {
@@ -203,7 +213,7 @@ footer p {
   }
   
   .book-card {
-    background-color:#5E807F;
+    background-color:#516C6B;
     padding: 15px;
     border-radius: 10px;
     width: 200px;
@@ -219,7 +229,7 @@ footer p {
   
   .book-card p {
     font-size: 0.95rem;
-    color:	#f0e6d6 ;
+    color:	#EAF0EF ;
     margin: 0;
   }
   
@@ -481,7 +491,7 @@ article ul li::before {
   .review-form {
     flex: 1;
     min-width: 320px;
-    background-color: #5E807F;
+    background-color: #5F7F7E;
     padding: 20px;
     border-radius: 10px;
   }
