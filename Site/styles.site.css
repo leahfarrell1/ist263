@@ -504,7 +504,7 @@ article ul li::before {
   .review-form {
     flex: 1;
     min-width: 320px;
-    background-color: #5F7F7E;
+    background-color: #577473;
     padding: 20px;
     border-radius: 10px;
   }
@@ -512,7 +512,7 @@ article ul li::before {
   .review-form h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #EAF0EF;
+    color: #f7f9f9;
   }
   
   .review-form form {
@@ -543,7 +543,7 @@ article ul li::before {
   
   .review-form button {
     margin-top: 15px;
-    background-color: #C7A27C;
+    background-color: #93785d;
     color: white;
     border: none;
     padding: 10px;
