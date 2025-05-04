@@ -467,7 +467,7 @@ article ul li::before {
   
   .star-rating {
     font-size: 1.5rem;
-    color: #ccc;
+    color: #4B3F2F;
     cursor: pointer;
     display: inline-block;
     margin-top: 0.5rem;
