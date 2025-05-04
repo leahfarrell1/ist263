@@ -504,7 +504,7 @@ article ul li::before {
   .review-form {
     flex: 1;
     min-width: 320px;
-    background-color: #577473;
+    background-color: #455a59;
     padding: 20px;
     border-radius: 10px;
   }
@@ -523,7 +523,7 @@ article ul li::before {
   .review-form label {
     margin-top: 10px;
     font-weight: bold;
-    color: #EAF0EF;
+    color: #ebf7f5;
   }
   
   .review-form input,
@@ -543,7 +543,7 @@ article ul li::before {
   
   .review-form button {
     margin-top: 15px;
-    background-color: #93785d;
+    background-color: #3a3128;
     color: white;
     border: none;
     padding: 10px;
@@ -552,7 +552,7 @@ article ul li::before {
   }
   
   .review-form button:hover {
-    background-color: #b68c6d;
+    background-color: #5e4e42;
   }
   @media (max-width: 768px) {
     .contact-review {
