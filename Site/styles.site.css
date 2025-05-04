@@ -249,10 +249,9 @@ footer p {
     padding: 0 10px;
   }
   
-  
   .review-card {
     flex: 0 0 300px;           
-    background-color: #C7A27C ;
+    background-color: #f0e6d6;
     padding: 20px;
     border-radius: 10px;
     text-align: left;
@@ -371,8 +370,7 @@ article ul li::before {
 }
 
 .genre-flex > div {
-  background-color: #C7A27C ;
-  ; /* light brown */
+    background-color: #f0e6d6;
   border-radius: 8px;
   padding: 15px;
   width: 300px;
