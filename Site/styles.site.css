@@ -9,10 +9,6 @@ body {
     font-style: normal;
 }
 
-header h1 {
-  color: #EAF0EF;
-}
-
 
 h1 {
   font-family: "Gentium Book Plus", serif !important;
@@ -72,7 +68,7 @@ h1 {
   
   /* Header */
   header {
-    background-color: #516C6B ;
+    background-color: #8ba1a1 ;
     padding: 20px;
     text-align: center;
   }
@@ -86,7 +82,7 @@ h1 {
   
   header nav ul li a {
     text-decoration: none;
-    color: #EAF0EF;
+    color:#4B3F2F;
     font-weight: bold;
   }
   
