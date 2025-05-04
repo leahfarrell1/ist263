@@ -1,6 +1,24 @@
-
- 
   
+.skip-link {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
+  background-color: #f0e6d6;
+  color: #2a1f14;
+  font-weight: bold;
+  z-index: 1000;
+}
+
 body {
   color: #4B3F2F;
     background-color: #faf3e0;
